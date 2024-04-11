@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Movies Database</h2>
+    <button id="getMoviesBtn">Get Movies</button>
+    <ul id="moviesList"></ul>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <label>Title:</label>
+        <input type="text" id="title" name="title" />
+        <label>Genre:</label>
+        <input type="text" id="genre" name="genre" />
+        <label>Director:</label>
+        <input type="text" id="director" name="director" />
+        <label>Year:</label>
+        <input type="text" id="year" name="year" />
+        <button id="addMovieBtn">Add Movie</button>
+        <button id="updateMovie">update Movie</button>
+      </div>
+    </div>
+    <button class="open" type="button">open it</button>
+    <script src="index.js"></script>
+  </body>
+</html>

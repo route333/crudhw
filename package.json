@@ -1,0 +1,29 @@
+{
+  "name": "crudhw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/crudhw/",
+    "preview": "vite preview",
+    "server": "npx json-server ./movies.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/route333/crudhw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/route333/crudhw/issues"
+  },
+  "homepage": "https://github.com/route333/crudhw#readme",
+  "dependencies": {
+    "glob": "^10.3.12",
+    "json-server": "^1.0.0-alpha.23",
+    "vite": "^5.2.8",
+    "vite-plugin-full-reload": "^1.1.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}

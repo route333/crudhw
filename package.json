@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/route333/crudhw/issues"
   },
-  "homepage": "https://github.com/route333/crudhw#readme",
+  "homepage": "https://github.com/route333/crudhw",
   "dependencies": {
     "glob": "^10.3.12",
     "json-server": "^1.0.0-alpha.23",
